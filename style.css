@@ -134,3 +134,44 @@
     }
     
 }
+@media  (max-width:480px) {
+    .container{
+        width: 100%;
+        
+    }
+    .row{
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        
+    }
+    body{
+        max-height: 1600px;
+    }
+    .why-us .col-left {
+        width: 100%;
+        margin: 3rem;
+    }
+    .why-us .col-right{
+        width: 100%;
+    }
+    .col {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+    .steps .col {
+        width: 100%;
+        margin: 1rem;
+        text-align: center;
+        padding: 1rem;   
+    }
+    .lessons .col {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+}
