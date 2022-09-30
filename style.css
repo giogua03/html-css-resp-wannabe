@@ -128,12 +128,9 @@
      SOLUZIONE RESPONSIVE
   ************************************************/
 @media  (max-width:768px) {
-    .steps{
+    .container{
         width: 100%;
-        background-color: aqua;
+        
     }
-    .col .col-right{
-       font-size: 20px; 
-    }
-
+    
 }
